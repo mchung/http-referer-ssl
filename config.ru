@@ -5,7 +5,7 @@ Bundler.require
 
 class App < Sinatra::Base
   get '/' do
-    'spicy and cheese you will find in microwave buffalo chicken'
+    haml :index, :format => :html5
   end
 end
 

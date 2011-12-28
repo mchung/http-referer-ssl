@@ -1,23 +1,29 @@
-%h1
-  spicy and cheese you will find in microwave buffalo chicken
+!!! 5
+%html
+  %head
+    %title spicy and cheese you will find in microwave buffalo chicken
+    %meta{:name => "google-site-verification", :content => "TT2ff2OdLRdBa1aqY6lg0ieSdGvf2yu_S2g7hE3LdhM"}
+  %body
+    %h1
+      spicy and cheese you will find in microwave buffalo chicken
 
-%h2
-  ENV
-%table
-  - ENV.each do |k, v|
-    %tr
-      %td
-        = k
-      %td
-        = v
+    %h2
+      ENV
+    %table
+      - ENV.each do |k, v|
+        %tr
+          %td
+            = k
+          %td
+            = v
 
 
-%h2
-  env
-%table
-  - env.each do |k, v|
-    %tr
-      %td
-        = k
-      %td
-        = v
+    %h2
+      env
+    %table
+      - env.each do |k, v|
+        %tr
+          %td
+            = k
+          %td
+            = v

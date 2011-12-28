@@ -1,8 +1,21 @@
 %h1
   spicy and cheese you will find in microwave buffalo chicken
 
+%h2
+  ENV
 %table
   - ENV.each do |k, v|
+    %tr
+      %td
+        = k
+      %td
+        = v
+
+
+%h2
+  env
+%table
+  - env.each do |k, v|
     %tr
       %td
         = k

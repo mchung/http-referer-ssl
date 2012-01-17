@@ -1,17 +1,5 @@
-# The example app from sinatra-synchrony
+# HTTP_REFERER_SSL
 
-The [sinatra-synchrony](https://github.com/kyledrake/sinatra-synchrony) project describes an example app. This repo codifies that example.
+This application demonstrates how correctly HTTP_REFERER headers are correctly set a visitor moves from one website to another
 
-## Usage
-
-    git clone git://github.com/drnic/sinatra-synchrony-example.git
-    cd sinatra-synchrony-example
-    bundle
-    rackup -s thin
-
-To test the app:
-
-    curl http://localhost:9292/
-    ab -n 100 -c 5 http://localhost:9292/
-
-
+For more information, please check out https://plus.google.com/104784810088614119840/posts/19JgMqTdt5A
